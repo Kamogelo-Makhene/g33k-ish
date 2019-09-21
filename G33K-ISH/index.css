@@ -1,0 +1,248 @@
+body{
+    background-color: white;
+    color: black;
+    margin:0;
+}    
+nav {
+    position: fixed;
+    background-color: rgb(44, 62, 80);
+    width: 100%;
+    color: #ffffff;
+    
+}
+ul {
+    
+    list-style: none;
+    padding-right: 50px;
+
+}
+.nav-list {
+    text-transform: uppercase;
+    /* width:60%; */
+    float: right;
+    font-size: 16px;
+    border: solid white 1px;
+    margin-left: 4%;
+    padding: 10px;
+}
+#logo{
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#landing-page {
+               
+               text-align: center;
+                width:100%;
+               padding-bottom: 50px;
+     background-color: rgb(26, 188, 156);
+     padding-top: 100px;
+     
+
+
+
+}     
+
+
+#header{
+    width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        
+
+}
+#landing-page-content{ 
+   
+                      
+    
+   
+    
+    
+}
+#welcome{ color: #ffffff;
+    font-size: 64px;
+    font-weight: 700;
+
+} 
+
+#personal{ color: #ffffff;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 4%;
+   
+
+}
+
+#horizontal{width: 300px;
+            background-color: #ffffff;
+            height: 3px;
+            border: none;
+            border-radius: 15px;
+            margin-top: -2%;
+            
+
+}
+ 
+#about{ background-color: #ffffff;
+                   width: 100%;
+                   height: 300px;
+                   text-align: center;
+                   font-size: 50px;
+
+    
+}
+
+
+.sweet{
+    background-color: #ffffff;
+    color: rgb(44, 62, 80);
+    
+}
+
+.sour{
+    width: 100px;
+    height: 3px;
+    border-radius: 25px;
+    margin-top: -2%;
+    background-color: rgb(44, 62, 80);
+    border: none;
+    
+
+}
+#red{
+   
+    text-align: center;
+    float: right;
+    width: 46%;
+    padding: 15px;
+    
+    
+}
+#green{
+   
+    text-align: center;
+    float: left;
+    width: 46%;
+    padding: 15px;
+    ;
+   
+    
+}
+#blue{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 1.0rem;
+    color: rgb(44, 62, 80);
+    
+
+    
+}
+
+.contact-us{
+    padding: 15%;
+    
+
+}
+
+label{
+       font-size: 22px;
+       color: rgb(113, 247, 220);
+}
+.form{
+    width: 70%;
+    text-align: left;
+    
+
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-bottom: solid lightgrey 1px !important;
+    border: none;
+    background-color: transparent;
+    margin-top: 7%;
+    text-transform: capitalize;
+
+}
+::placeholder{
+    color: rgb(44, 62, 80);
+    font-size: 22px;
+    /* padding-bottom: 50px; */
+
+
+}
+#message{
+    /* height: 150px; */
+    padding-bottom: 100px;
+    /* margin-top: 2% !important; */
+}
+button{
+    padding: 13px; 5px;
+    width: 13%;  
+    color: white;
+    background-color: rgb(113, 247, 220);
+    border: solid rgb(113, 247, 220); 1px;
+    border-radius:10px;
+    font-size:1.2rem;
+    margin-top: 10  %;
+}
+
+.footer-content{
+    width: 20%;
+    color: #ffffff;
+    font-size: 1.5rem;  
+    
+
+}
+
+#location{
+    /* background-color: blue; */
+    
+    
+}
+
+#about-me{
+    /* background-color: violet; */
+    
+}
+
+#social-links{
+    /* background-color: aqua; */
+    
+}
+
+.footer-content-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(44, 62, 80);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+.right-leg{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.copyright{
+    background-color:#1a252f;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.0rem !important;
+    
+}
+
+.logo{
+    border: solid white 2px;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
